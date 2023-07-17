@@ -1,0 +1,18 @@
+div.alert-styles-desktop {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  div.alert {
+    margin: 1rem;
+  }
+}
+
+div.alert-styles-mobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  div.alert {
+    margin: 1rem;
+    max-height: 5%;
+  }
+}

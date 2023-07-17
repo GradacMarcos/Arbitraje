@@ -1,0 +1,33 @@
+div.TypographyStatus {
+  p.TypographyStatus-border-color-success {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(0, 128, 0, 0.73);
+    padding: 0.25rem;
+    border-radius: 10px;
+  }
+
+  p.TypographyStatus-border-color-warning {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(255, 165, 0, 0.73);
+    padding: 0.25rem;
+    border-radius: 10px;
+  }
+
+  p.TypographyStatus-border-color-error {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(255, 0, 0, 0.73);
+    padding: 0.25rem;
+    border-radius: 10px;
+  }
+
+  p.TypographyStatus-border-color-info {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(0, 0, 255, 0.73);
+    padding: 0.25rem;
+    border-radius: 10px;
+  }
+}

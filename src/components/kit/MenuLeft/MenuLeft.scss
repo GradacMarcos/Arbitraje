@@ -1,0 +1,22 @@
+.menu-title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+	justify-content: center;
+	font-family: 'Gill Sans', sans-serif;
+	transition: color 0.3s ease; /* Agrega una transición suave */
+	align-items: center;
+	.img-dolar {
+		text-align: end;
+		padding-right: 10px;
+	}
+}
+.menu-title:hover {
+	color: rgb(226, 47, 226); /* Cambia el color al pasar el mouse por encima */
+}
+
+.menu-button {
+	transition: color 0.3s ease; /* Agrega una transición suave */
+}
+.menu-button:hover {
+	background-color: rgb(226, 47, 226); /* Cambia el color al pasar el mouse por encima */
+}
