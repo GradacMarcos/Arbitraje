@@ -1,5 +1,5 @@
 import { Grid } from '@mui/material';
-import './EchangeList.scss';
+import './Dashboard.scss';
 import CustomBarChart from '../../components/kit/Graphic';
 
 export default function Dashboard() {

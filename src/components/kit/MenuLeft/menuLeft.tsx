@@ -38,15 +38,17 @@ export default function Sidebar(props: Props) {
 	return (
 		<Grid container>
 			<Grid item xs={2}>
-				<IconButton
-					edge="start"
-					className={classes.menuButton}
-					color="inherit"
-					aria-label="menu"
-					onClick={toggleSidebar}
-				>
-					<MenuIcon fontSize="large" />
-				</IconButton>
+				<Grid className='icon-menu'>
+					<IconButton
+						edge="start"
+						className={classes.menuButton}
+						color="inherit"
+						aria-label="menu"
+						onClick={toggleSidebar}
+					>
+						<MenuIcon fontSize="large" />
+					</IconButton>
+				</Grid>
 				<Drawer
 					className={classes.drawer}
 					classes={{
