@@ -1,0 +1,16 @@
+.movement {
+	.basic-table {
+		.movement-field-operated {
+			&.buy {
+				background-color: green;
+			}
+			&.sell {
+				background-color: red;
+			}
+			border: 0.5px;
+			border-style: solid;
+            text-align: center;
+			border-radius: 40%;
+		}
+	}
+}

@@ -4,6 +4,7 @@ import { Grid } from '@mui/material';
 import Dashboard from './Dashboard';
 import Movement from './Movement';
 import Sidebar from '../components/kit/MenuLeft/menuLeft';
+import Calculator from './calculator';
 
 export const DesktopContext = React.createContext<boolean | null>(true);
 
@@ -25,11 +26,12 @@ export default function Arbitraje() {
 	};
 	return (
 		<DesktopContext.Provider value={isDesktop}>
-			<Grid className="garage">
+			<Grid>
 				<Router>
 					<Routes>
-						<Route path="/" element={renderMenu(<Dashboard />)()}  />
+						<Route path="/" element={renderMenu(<Dashboard />)()} />
 						<Route path="/movement" element={renderMenu(<Movement />)()} />
+						<Route path="/calculator" element={renderMenu(<Calculator />)()} />
 					</Routes>
 				</Router>
 			</Grid>

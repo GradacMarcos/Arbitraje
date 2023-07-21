@@ -37,8 +37,8 @@ export default function Sidebar(props: Props) {
 
 	return (
 		<Grid container>
-			<Grid item xs={2}>
-				<Grid className='icon-menu'>
+			<Grid item xs={0}>
+				<Grid className="icon-menu">
 					<IconButton
 						edge="start"
 						className={classes.menuButton}
@@ -84,7 +84,7 @@ export default function Sidebar(props: Props) {
 							</ListItem>
 						</Grid>
 						<Grid className="menu-button">
-							<ListItem button>
+							<ListItem button component={Link} to="http://localhost:3000/calculator">
 								<ListItemIcon>
 									<CalculateIcon fontSize="large" />
 								</ListItemIcon>
@@ -102,7 +102,7 @@ export default function Sidebar(props: Props) {
 					</List>
 				</Drawer>
 			</Grid>
-			<Grid item xs={10}>
+			<Grid item xs={11}>
 				{children}
 			</Grid>
 		</Grid>

@@ -13,7 +13,7 @@ import ButtonLevel from "../Buttons";
 
 interface Props {
   columns: string[];
-  rows: (string | JSX.Element)[][];
+  rows: (string | number | JSX.Element)[][];
   options?: {
     startIcon: React.ReactElement;
     label: string;

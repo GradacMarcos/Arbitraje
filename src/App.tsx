@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Garage from './pages/App';
 import Arbitraje from './pages/App';
 
 function App() {
